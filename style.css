@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.body-wrapper {
+  width: 1100px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+}
+.background-image {
+  width: 100%;
+}
+.girl-one {
+  width: 100%;
+}
+.girl-two{
+  width:100%;
+}
+.girl-three{
+  width: 100%;
+}
+.babies{
+  width: 100%;
+}
+.earth{
+  width: 100%;
+}
+.building{
+  width: 100%;
+}
+.box-1 {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 567px;
+  right: -10px;
+  top: 231px;
+}
+.box-2 {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 700px;
+  right: -14px;
+  top: 420px;
+}
+.box-3 {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 800px;
+  right: -24px;
+  top: 632px;
+}
+.box-4{
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 800px;
+  right: 100px;
+    top: 2200px;
+}
+.box-5{
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 800px;
+  right: 100px;
+    top: 3650px;
+}
+.box-6{
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 600px;
+  right: 655px;
+    top: 4483px;
+}
+.box-1:hover {
+  animation: girl-one-animation 1s ease;
+}
+@keyframes girl-one-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+.box-2:hover {
+  animation: girl-two-animation 1s ease;
+}
+@keyframes girl-two-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+.box-3:hover {
+  animation: girl-three-animation 1s ease;
+}
+@keyframes girl-three-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+.box-4:hover {
+  animation: babies-animation 1s ease;
+}
+@keyframes babies-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+.box-5:hover {
+  animation: earth-animation 1s ease;
+}
+@keyframes earth-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+.box-6:hover {
+  animation: building-animation 1s ease;
+}
+@keyframes building-animation {
+  0%   {right: -10px;}
+  25%  {right: 10px;}
+  50%  {right: -10px;}
+  100% {right: 10px;}
+}
+
+/* PAGES STYLES */
+.text-wrapper {
+  font-family: ff-basic-gothic-pro, sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  font-style: normal;
+  width: 50%;
+  margin: 30px auto;
+  float: left;
+  margin-left: 40px;
+}
+.title-wrapper {
+  font-family: rogue-sans-ext, sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: italic;
+  margin: 5px;
+  float: center;
+  margin-left: 40px;
+}
